@@ -25,6 +25,6 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'connection'  
-    appName: 'myweb'      
+    appName: 'myweb1'      
     package: '$(Build.ArtifactStagingDirectory)/app.zip'
   displayName: 'Desplegar en Azure Web App'
